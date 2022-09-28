@@ -1,0 +1,8 @@
+#!/bin/bash
+
+## Description: Run phpunit command inside the web container
+## Usage: phpunit
+## Example: "ddev phpunit"
+## ExecRaw: true
+
+./vendor/bin/phpunit

@@ -1,0 +1,9 @@
+#!/bin/bash
+
+## Description: Run Contao console inside the web container
+## Usage: contao [flags] [args]
+## Example: "ddev contao contao:migrate"
+## ProjectTypes: php
+## ExecRaw: true
+
+./vendor/bin/contao-console $@
