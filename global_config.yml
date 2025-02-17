@@ -1,3 +1,1 @@
 project_tld: project.test
-omit_containers: [dba]
-auto_restart_containers: true
