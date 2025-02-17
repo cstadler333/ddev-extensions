@@ -1,9 +1,0 @@
-#!/bin/bash
-
-## Description: Run Symfony console inside the web container
-## Usage: console [flags] [args]
-## Example: "ddev console list"
-## ProjectTypes: php
-## ExecRaw: true
-
-php bin/console $@
