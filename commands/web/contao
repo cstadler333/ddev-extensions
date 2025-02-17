@@ -6,4 +6,10 @@
 ## ProjectTypes: php
 ## ExecRaw: true
 
-./vendor/bin/contao-console $@
+if [ ! -f vendor/bin/contao-console ]; then
+  echo 'vendor/bin/contao-console does not exist in your project root directory.'
+  echo 'Please verify that you installed Contao in your project directory.'
+  exit 1
+fi
+
+vendor/bin/contao-console $@
