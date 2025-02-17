@@ -2,12 +2,12 @@
 
 ## Install
 
-Add the files you want into your `~/.ddev` under the same path as in this repository.
+- Add the commands you want into `~/.ddev` under the same path as in this repository.
+- Copy and replace the values you want in `~/.ddev/global_config.yml`.
 
 ## Commands
 
 ### Web
 
-- [Symfony Console](commands/web/console)
 - [Contao Console](commands/web/contao)
 - [PHPUnit](commands/web/phpunit)
